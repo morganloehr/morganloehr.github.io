@@ -8,6 +8,7 @@ h3 {
 body {
     font-family: 'Old Standard TT', serif;
     letter-spacing: .25px;
+    color: #2E4145;
  }
 
 a {
@@ -16,16 +17,17 @@ a {
     // color:#f78638;
     // color: #27BBA2;
     // #DE1554 pink
-    color: #AE1746;
+    // color: #AE1746;
+    color: #E02E65;
 }
 
 a:hover {
-    color: #333;
+    color: #2E4145;
 
 }
 
 a:visited {
-   color: #AE1746;
+   color: #E02E65;
 }
 
 ul {
@@ -172,7 +174,7 @@ li a {
 body:before, body:after {
     content: "";
     position: fixed;
-    background: #333;
+    background: #E2E1E6;
     left: 0;
     right: 0;
     height: 10px;
@@ -185,33 +187,31 @@ body:after {
     bottom: 0;
 }
 body {
-    border-left: 10px solid #333;
-    border-right: 10px solid #333;  
+    border-left: 10px solid #E2E1E6;
+    border-right: 10px solid #E2E1E6;  
     z-index: 999;
+    background: #F8F8F8;
 }
 
 
 .site-header {
-    padding-top: 40px;
-    margin-bottom: 60px;
+    padding-top: 50px;
+    margin-bottom: 80px;
 }
 
-.profile {
-    border: 5px solid #333;
-}
 
 .container-main {
-    max-width: 800px;
+    max-width: 850px;
 }
 
 
 
 .site-nav a {
     font-size: 16px;
-    color: #333;
+    color: #2E4145;
 
     &:hover {
-        color: #AE1746;
+        color: #E02E65;
     }
 }
 
@@ -242,13 +242,17 @@ a.twitter:before {
 }
 
 .article-container {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .feature-content {
     padding-bottom: 60px;
+    background-color: #f8f8f8;
 }
 
+.gray-bg {
+    background-color: #F8F8F8;
+}
 // footer
 
 ul.footer {
@@ -260,16 +264,23 @@ ul.footer {
 
     a {
         padding: 0 15px;
-        color: #333;
+        color: #2E4145;
 
         &:hover {
-           color: #AE1746;
+           color: #E02E65;
         }
     }
 
     i {
         font-size: 26px;
     }
+}
+.bg-white {
+    background: white;
+}
+
+.article-section {
+    padding-top: 80px;
 }
 
 
@@ -301,4 +312,10 @@ ul.footer {
     }
 }
 
+
+@media only screen and (min-width : 992px) {
+    .feature-content h2 {
+        margin-left: 20px;
+    }
+}
 

@@ -3,28 +3,30 @@
 
   {% include head.html %}
 
-  <body>
+<body>
   <div class="container container-main">
 
     {% include header.html %}
 
     <div class="page-content">
-      
-        <!-- {{ content }} -->
-        <!-- TOP CONTENT -->
-        <div class="row feature-content">
-          <div class="col-sm-12 col-md-5">
-            <img src="/assets/me-sorta.jpg" alt="Morgan Loehr" class="profile">
-          </div>
-          <div class="col-sm-12 col-md-7">
-            <h2>Howdy Muchachos! I'm a humor writer living in California. I edit and contribute to <a href="https://medium.com/slackjaw">Slackjaw</a> on Medium. My words also appear in <a href="http://www.huffingtonpost.com/morgan-rock-loehr/">The Huffington Post</a> and <a href="http://thehiggsweldon.com/author/morgan-rock-loehr/">The Higgs Weldon</a>. </h2>
-            <h2>One day, if all my dreams come true, I'll have a story in The National Enquirer. Not by me, but about me.</h2>
-          </div>
+      <!-- TOP CONTENT -->
+      <div class="row feature-content">
+        <div class="col-md-5">
+          <img src="/assets/me-sorta.jpg" alt="Morgan Loehr" class="profile">
         </div>
+        <div class="col-md-7">
+          <h2>Howdy Muchachos! I'm a humor writer living in California. I edit and contribute to <a href="https://medium.com/slackjaw">Slackjaw</a> on Medium. My words also appear in <a href="http://www.huffingtonpost.com/morgan-rock-loehr/">The Huffington Post</a> and <a href="http://thehiggsweldon.com/author/morgan-rock-loehr/">The Higgs Weldon</a>. </h2>
+          <h2>One day, if all my dreams come true, I'll have a story in The National Enquirer. Not by me, but about me.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- ARTICLE LINKS -->
+  <div class="container-fluid">
+    <div class="row bg-white">
+      <div class="container container-main article-section">
         <div class="row article-container">
-
+          
           <div class="col-md-4 publication">
             <h3>Slackjaw</h3>
             <ul>
@@ -39,7 +41,7 @@
               <li><a href=""></a></li>
             </ul>
           </div>
-          
+        
           <div class="col-md-4 publication">
             <h3>Huffington Post</h3>
             <ul>
@@ -56,11 +58,11 @@
             </ul>
           </div>
         </div>
-    
+         {% include footer.html %}
+      </div>
     </div>
-
-    {% include footer.html %}
   </div>
-  </body>
+
+</body>
 
 </html>
