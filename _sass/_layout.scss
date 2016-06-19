@@ -73,6 +73,7 @@ li a {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0 40px;
+    margin-top: 60px;
 }
 
 .footer-heading {
@@ -241,10 +242,6 @@ a.twitter:before {
     margin-right: 15px;
 }
 
-.article-container {
-    margin-bottom: 60px;
-}
-
 .feature-content {
     padding-bottom: 60px;
     background-color: #f8f8f8;
@@ -317,6 +314,10 @@ ul.footer {
     .feature-content h2 {
         margin-left: 20px;
     }
+
+    .article-container {
+        margin-bottom: 60px;
+    }
 }
 
  /* Small Devices, Tablets */
@@ -325,5 +326,8 @@ ul.footer {
         font-size: 26px;
     }
  }
+
+
+
 
 
